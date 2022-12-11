@@ -1,0 +1,55 @@
+body, html{
+    background-color:pink;
+    background-image:url('flowers-falling.gif');
+    height: 100%;
+    margin: 0;
+}
+#youre-cute-img-parent{
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+}
+#youre-cute-img{
+    border-style: solid;
+    border-width: medium;
+    border-radius: 25px;
+    background-color: palevioletred;
+    width: 30%;
+    height: auto;
+}
+#no-button-intial-parent{
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 4%;
+}
+#no-button-hover{
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    width: 35%;
+    height: 35%;
+}
+#no-button{
+    height: 80%;
+    width: auto;
+    padding: 1% 3%;
+    font-size:xx-large;
+    font-family: Cute_Font;
+    src: url('Cute_Font.ttf');
+    font-weight: 700;
+    color:rgb(59, 1, 59);
+    background-color:#CBC3E3;
+}
+#no-button:hover{
+    padding: 1% 3%;
+    font-size:xx-large;
+    font-family: Cute_Font;
+    src: url('Cute_Font.ttf');
+    font-weight: 700;
+    color:black;
+    background-color:#d39de9;
+}
